@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+button{
+    height: 20px;
+}
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto ;
+    gap: 5px;
+    background-color: #2196F3;
+    padding: 5px;
+    width: 960px;
+}
+.gridItem, 
+.gridItem2,
+.gridItem3,
+.gridItem4,
+.gridItem5,
+.gridItem6,
+.gridItem7,
+.gridItem8,
+.gridItem9,
+.gridItem10,
+.gridItem11,
+.gridItem12,
+.gridItem13,
+.gridItem14,
+.gridItem15,
+.gridItem16,
+.gridItem17,
+.gridItem18,
+.gridItem19,
+.gridItem20,
+.gridItem21,
+.gridItem22,
+.gridItem23,
+.gridItem24,
+.gridItem25,
+.gridItem26,
+.gridItem27,
+.gridItem28,
+.gridItem29,
+.gridItem30,
+.gridItem31,
+.gridItem32,
+.gridItem33, 
+.gridItem34,
+.gridItem35,
+.gridItem36,
+.gridItem37,
+.gridItem38,
+.gridItem39,
+.gridItem40,
+.gridItem41,
+.gridItem42,
+.gridItem43,
+.gridItem44,
+.gridItem45,
+.gridItem46,
+.gridItem47,
+.gridItem48,
+.gridItem49,
+.gridItem50,
+.gridItem51,
+.gridItem52,
+.gridItem53,
+.gridItem54,
+.gridItem55,
+.gridItem56,
+.gridItem57,
+.gridItem58,
+.gridItem59,
+.gridItem60,
+.gridItem61,
+.gridItem62,
+.gridItem63,
+.gridItem64{
+    background-color:red;
+  border: 2px solid #000000;
+  text-align: center;
+  font-size: 30px;
+}
