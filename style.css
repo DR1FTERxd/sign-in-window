@@ -1,16 +1,25 @@
 body {
-    
+
 }
 #upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     height: 350px;
     padding: 40px;
     font-weight: bold;
+    font-size: x-large;
+    
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #right_side {
     float: right;
-    width: 131vh;
-    height: 100vh;
+    width: 1562px;
+    height: 1172px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, pink, yellow);
 }
 #form_inputs {
     height: px;
@@ -20,31 +29,77 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #background{ 
-    width: 70vh;
-    height: 100vh;
+    width: 837px;
+    height: 1171px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 
 }
 #form {
     grid-template-rows: auto auto auto;
-    background-color: lightyellow;
+    font-weight: 700;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 40px;
-    box-shadow: 5px 5px 5px 5px gray;
+    
+    
+}
+label{
+    color:gray;
+    font-size: 20px;
 }
 #bottom {
+   
     padding: 40px;
+    font-size: x-large;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #submit {
     background-color: #596D48;
     color: aliceblue;
     height: 50px;
-    width: 150px;
+    width: 250px;
     border-radius: 10px;
     border: transparent;
+    font-size: large;
+    font-weight: 500;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
 }
 form {
-    height: 50px;
+    height: 70px;
+    
 }
 input, label {
     display:block;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+#logop {
+    position: fixed;
+    
+}
+#front-log{
+    position: fixed;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    top: 350px;
+    align-items: center;
+    
+}
+img{
+    height: 250px;
+    
+}
+#text{
+    position: absolute;
+    color: white;
+    top: ;
+    font-size: xx-large;
 }
